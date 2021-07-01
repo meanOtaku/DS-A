@@ -10,16 +10,16 @@ int main()
     {
         cin>>a[i];
     }
-    int k;
-    cin>>k;
-    int count=0;
-    int* maxele=max_element(a,a+n);
+    map<int,int>m;
     for(int i=0;i<n;i++)
     {
-      if(a[i]+k>=*maxele)
-      {
-          count++;
-      }
+        m[a[i]]++;
     }
-    cout<<count;
+    int numofpair=0;
+    for(auto p:m)
+    {
+        int j=p.second;
+        numofpair+=((j-1)*j)/2;
+    }
+    cout<<numofpair;
 }
