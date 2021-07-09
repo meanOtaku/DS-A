@@ -2,6 +2,11 @@
     "files.associations": {
         "xutility": "cpp",
         "ostream": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "cstdlib": "cpp",
+        "iostream": "cpp",
+        "initializer_list": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp"
     }
 }
