@@ -7,6 +7,12 @@
         "iostream": "cpp",
         "initializer_list": "cpp",
         "xstring": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "iosfwd": "cpp",
+        "list": "cpp",
+        "xhash": "cpp",
+        "algorithm": "cpp",
+        "unordered_map": "cpp",
+        "map": "cpp"
     }
 }
